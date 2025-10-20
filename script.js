@@ -17,7 +17,9 @@ Each idea should include:
 - Pain point solved
 - Main keyword
 
-Format the response in a clear, structured way with each idea separated.`,
+Format the response in a clear, structured way with each idea separated.
+
+No explanations, no introductions, no additional text.`,
 
             2: (blogTitle) => `Act as an SEO professional. For this blog title: "${blogTitle}", list:
 
@@ -27,7 +29,9 @@ Format the response in a clear, structured way with each idea separated.`,
 - Meta description (under 160 characters)
 - Search intent type (Informational, Transactional, Navigational)
 
-Provide specific, actionable recommendations.`,
+Provide specific, actionable recommendations.
+
+No explanations, no introductions, no additional text.`,
 
             3: (blogTitle) => `As a professional blogger, create a detailed outline for a blog titled "${blogTitle}".
 The outline should include:
@@ -37,31 +41,41 @@ The outline should include:
 - Key discussion points under each heading
 - A logical flow that keeps the reader engaged
 
-Structure the outline professionally with clear hierarchy.`,
+Structure the outline professionally with clear hierarchy.
+
+No explanations, no introductions, no additional text.`,
 
             4: (blogTitle) => `You are a viral content writer.
 Write 3 possible intro hooks for the blog "${blogTitle}" that grab attention in the first 3 sentences.
 Each should include a statistic, story, or question to spark curiosity.
 
-Make each hook unique and compelling.`,
+Make each hook unique and compelling.
+
+No explanations, no introductions, no additional text.`,
 
             5: (sectionTitle, outline) => `Write the full content for the section titled "${sectionTitle}" from the outline below:
 ${outline}
 
 Use an engaging tone, include examples, and write in simple, conversational style.
 Use short paragraphs and bullet points where needed.
-Aim for 300-500 words for this section.`,
+Aim for 300-500 words for this section.
+
+No explanations, no introductions, no additional text.`,
 
             6: (sectionTitle) => `Rewrite the section "${sectionTitle}" to include a short relatable story or case study that supports the point.
 Keep the story concise, emotional, and relevant to the reader.
 
-Make sure the story enhances the main point without distracting from it.`,
+Make sure the story enhances the main point without distracting from it.
+
+No explanations, no introductions, no additional text.`,
 
             7: (paragraph) => `Add expert insights, data, or quotes to strengthen this paragraph:
 "${paragraph}"
 
 Make the content more authoritative and credible while staying natural.
-Include 2-3 expert elements that add value.`,
+Include 2-3 expert elements that add value.
+
+No explanations, no introductions, no additional text.`,
 
             8: (primaryKeyword) => `Optimize this blog post for the keyword "${primaryKeyword}".
 Include keyword variations naturally in:
@@ -72,13 +86,22 @@ Include keyword variations naturally in:
 - Image alt texts (suggested)
 
 Maintain a human-friendly tone while optimizing for SEO.
-Provide specific examples.`,
+Provide specific examples.
+
+No explanations, no introductions, no additional text.`,
 
             9: (relatedTopics) => `Suggest 3 internal link ideas (related blog topics) and 3 external high-authority sources that should be linked in this post to improve SEO credibility.
 
 Related topics: ${relatedTopics}
 
-For each suggestion, explain why it's relevant and valuable.`,
+For each suggestion, explain why it's relevant and valuable.
+
+Top 3 recommendations:
+1. [Most valuable internal link]
+2. [Most authoritative external source] 
+3. [Best contextual link opportunity]
+
+No explanations, no introductions, no additional text.`,
 
             10: () => `Write 3 versions of a Call-to-Action (CTA) that fits naturally at the end of this blog post.
 Each version should focus on a different goal:
@@ -87,7 +110,14 @@ Each version should focus on a different goal:
 2. Driving traffic to another article
 3. Promoting a product, ebook, or course
 
-Make each CTA compelling and action-oriented.`,
+Make each CTA compelling and action-oriented.
+
+Top 3 recommendations:
+1. [Most engaging CTA for comments]
+2. [Best CTA for traffic generation]
+3. [Most effective product promotion CTA]
+
+No explanations, no introductions, no additional text.`,
 
             11: (blogTitle) => `Write a powerful conclusion for "${blogTitle}" that:
 
@@ -95,14 +125,28 @@ Make each CTA compelling and action-oriented.`,
 - Ends with an emotional or motivational line
 - Encourages reader engagement
 
-Make it memorable and share-worthy (150-200 words).`,
+Make it memorable and share-worthy (150-200 words).
+
+Top 3 recommendations:
+1. [Most emotional closing line]
+2. [Best engagement-driving ending]
+3. [Most memorable summary approach]
+
+No explanations, no introductions, no additional text.`,
 
             12: (blogContent) => `Rewrite the full blog below for readability and flow:
 "${blogContent}"
 
 Use active voice, short paragraphs, and smooth transitions.
 Keep tone friendly, expert, and conversational.
-Improve the overall reading experience.`,
+Improve the overall reading experience.
+
+Top 3 recommendations:
+1. [Best readability improvement]
+2. [Most effective transition technique]
+3. [Top tone adjustment suggestion]
+
+No explanations, no introductions, no additional text.`,
 
             13: (blogContent) => `Format this blog content for web readability:
 "${blogContent}"
@@ -110,17 +154,38 @@ Improve the overall reading experience.`,
 Use proper spacing, bullet lists, bold subpoints, and italic emphasis where suitable.
 Suggest 3 featured image ideas and 5 tags.
 
-Make it visually appealing and scannable.`,
+Make it visually appealing and scannable.
+
+Top 3 recommendations:
+1. [Best formatting improvement]
+2. [Most engaging visual element]
+3. [Top scannability enhancement]
+
+No explanations, no introductions, no additional text.`,
 
             14: (blogTitle) => `Write 5 different social media captions (for Facebook, Twitter/X, LinkedIn, Pinterest, and Instagram) to promote this blog titled "${blogTitle}".
 Each should be platform-appropriate and have a hook + call to action.
 
-Tailor each caption to the specific platform's audience and style.`,
+Tailor each caption to the specific platform's audience and style.
+
+Top 3 recommendations:
+1. [Best performing platform for this content]
+2. [Most engaging caption style]
+3. [Optimal posting time suggestion]
+
+No explanations, no introductions, no additional text.`,
 
             15: () => `Write a short email teaser (under 100 words) promoting this blog post.
 Use curiosity and urgency to make readers click the link.
 
-Make it compelling and click-worthy.`,
+Make it compelling and click-worthy.
+
+Top 3 recommendations:
+1. [Most effective subject line approach]
+2. [Best curiosity-building technique]
+3. [Top urgency-creating element]
+
+No explanations, no introductions, no additional text.`,
 
             16: (keyword) => `You are an expert blogger and SEO writer.
 Using the keyword "${keyword}", generate a complete, SEO-optimized blog post (1000–1500 words) that includes:
@@ -132,7 +197,14 @@ Using the keyword "${keyword}", generate a complete, SEO-optimized blog post (10
 - Data, examples, and story
 - Strong conclusion with CTA
 
-Make it human-like, emotional, educational, and shareable.`,
+Make it human-like, emotional, educational, and shareable.
+
+Top 3 recommendations:
+1. [Best keyword placement strategy]
+2. [Most engaging content structure]
+3. [Top shareability element]
+
+No explanations, no introductions, no additional text.`,
 
             17: () => `Convert this blog post into a 2-minute YouTube video script with visual and voiceover cues.
 
@@ -141,7 +213,14 @@ Include:
 - Main points with timestamps
 - Visual descriptions
 - Call to action
-- Suggested background music style`,
+- Suggested background music style
+
+Top 3 recommendations:
+1. [Best visual storytelling technique]
+2. [Most engaging hook approach]
+3. [Optimal video length adjustment]
+
+No explanations, no introductions, no additional text.`,
 
             18: () => `Summarize this blog into 7 Instagram carousel slides with bold headlines and short text per slide.
 
@@ -150,24 +229,29 @@ Include:
 - Key takeaways
 - Visual suggestions
 - Hashtag recommendations
-- Call to action on final slide`
+- Call to action on final slide
+
+Top 3 recommendations:
+1. [Best carousel structure]
+2. [Most engaging slide design]
+3. [Top hashtag strategy]
+
+No explanations, no introductions, no additional text.`
         };
     }
 
+    // ... rest of the class methods remain the same
     initEventListeners() {
-        // Generate button clicks
         document.querySelectorAll('.generate-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 this.handleGenerateClick(e);
             });
         });
 
-        // Copy button click
         document.getElementById('copy-btn').addEventListener('click', () => {
             this.copyToClipboard();
         });
 
-        // Input enter key support
         document.querySelectorAll('input, textarea').forEach(input => {
             input.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter' && !e.shiftKey) {
@@ -180,7 +264,6 @@ Include:
     }
 
     initSmoothScrolling() {
-        // Smooth scroll to results after generation
         const resultsSection = document.getElementById('results');
         if (resultsSection) {
             this.resultsSection = resultsSection;
@@ -193,7 +276,6 @@ Include:
         
         this.showLoadingState(e.target);
         
-        // Simulate API call delay
         setTimeout(() => {
             const generatedPrompt = this.generatePrompt(promptId, promptCard);
             this.displayResult(generatedPrompt);
@@ -343,7 +425,6 @@ Include:
     }
 
     formatPrompt(prompt) {
-        // Convert line breaks to HTML and add some basic formatting
         return prompt
             .split('\n')
             .map(line => {
@@ -399,7 +480,6 @@ Include:
             await navigator.clipboard.writeText(promptText);
             this.showCopyFeedback(copyBtn, true);
         } catch (err) {
-            // Fallback for older browsers
             const textArea = document.createElement('textarea');
             textArea.value = promptText;
             document.body.appendChild(textArea);
@@ -429,10 +509,8 @@ Include:
 document.addEventListener('DOMContentLoaded', () => {
     new BlogPromptSystem();
     
-    // Add some interactive enhancements
     const stageSections = document.querySelectorAll('.stage-section');
     
-    // Intersection Observer for fade-in animations
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -449,7 +527,6 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 
-    // Add keyboard shortcuts
     document.addEventListener('keydown', (e) => {
         if (e.ctrlKey && e.key === 'k') {
             e.preventDefault();
